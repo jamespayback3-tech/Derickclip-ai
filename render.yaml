@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: derickclip-ai
+    runtime: python
+    buildCommand: "bash build.sh"
+    startCommand: "gunicorn app:app --workers 1 --timeout 120"
+    plan: free
