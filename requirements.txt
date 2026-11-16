@@ -3,4 +3,3 @@ faster-whisper==1.2.1
 gunicorn==23.0.0
 requests
 yt-dlp
-av==14.3.0
